@@ -1,0 +1,20 @@
+# Keep raw evidence and authentication material out of the public repository.
+*.pfx
+*.p12
+*.pem
+*.key
+*.ccache
+*.kirbi
+*.kdbx
+*.har
+*.pt
+*.pickle
+*.pickle.gz
+credential.bin
+masterkey.bin
+id_rsa*
+.env
+.env.*
+raw/
+private/
+__pycache__/
